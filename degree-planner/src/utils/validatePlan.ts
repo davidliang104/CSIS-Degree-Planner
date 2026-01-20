@@ -17,10 +17,6 @@ export type PlanIssue = {
   missingIds?: string[];
 };
 
-function listSatisfied(ids: string[] | undefined, taken: Set<string>) {
-  return (ids ?? []).every((id) => taken.has(id));
-}
-
 function groupsSatisfied(groups: string[][] | undefined, taken: Set<string>) {
   return (groups ?? []).every((group) => group.some((id) => taken.has(id)));
 }

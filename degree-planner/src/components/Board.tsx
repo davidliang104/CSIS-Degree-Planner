@@ -37,7 +37,6 @@ type Props = {
   selectedCredits: number;
   totalCredits: number;
 
-  activeCourseId: string | null; // keep if you still want it in props; otherwise remove
   overTermK: string | null;
 };
 
@@ -66,7 +65,6 @@ export default function Board({
   selectedCredits,
   totalCredits,
 
-  activeCourseId,
   overTermK,
 }: Props) {
   return (

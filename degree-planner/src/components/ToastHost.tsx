@@ -1,5 +1,3 @@
-import React from "react";
-
 export type ToastKind = "info" | "warning" | "error";
 
 export type Toast = {

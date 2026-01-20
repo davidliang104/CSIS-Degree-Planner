@@ -208,16 +208,6 @@ export default function App() {
     );
   }, [query, presetCatalog]);
 
-  /* --------------------------- Placement rules ---------------------------- */
-
-  function listSatisfied(ids: string[] | undefined, taken: Set<string>) {
-    return (ids ?? []).every((id) => taken.has(id));
-  }
-
-  function groupsSatisfied(groups: string[][] | undefined, taken: Set<string>) {
-    return (groups ?? []).every((group) => group.some((id) => taken.has(id)));
-  }
-
   /* ------------------------------- Toasts -------------------------------- */
 
   const [toasts, setToasts] = useState<Toast[]>([]);
@@ -517,7 +507,6 @@ export default function App() {
             selectedCredits={selectedCredits}
             totalCredits={totalCredits}
             removeCourse={removeCourse}
-            activeCourseId={activeCourseId}
             overTermK={overTermK}
           />
         </div>
