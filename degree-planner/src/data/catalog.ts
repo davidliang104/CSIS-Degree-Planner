@@ -533,6 +533,34 @@ export const COURSE_CATALOG: Course[] = [
     note: "Cross-listed with CPEG 496.",
     offered: [],
   },
+  {
+    id: "csis200e",
+    code: "CSIS 200-300 Elec.",
+    title: "200-300 level Elective",
+    credits: 3,
+    category: "Elective",
+    prereqIds: [],
+    offered: [],
+  },
+
+  {
+    id: "csis300e1",
+    code: "CSIS 300-400 Elec. 1",
+    title: "300-400 level Elective",
+    credits: 3,
+    category: "Elective",
+    prereqIds: [],
+    offered: [],
+  },
+  {
+    id: "csis300e2",
+    code: "CSIS 300-400 Elec. 2",
+    title: "300-400 level Elective",
+    credits: 3,
+    category: "Elective",
+    prereqIds: [],
+    offered: [],
+  },
 
   // Math (CS-relevant)
   {

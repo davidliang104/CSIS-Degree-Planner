@@ -75,7 +75,10 @@ export const REQUIREMENTS: Record<ProgramKey, Record<Category, string[]>> = {
       "csis470",
       "csis475",
       "csis480",
-      "csis493",      
+      "csis493",
+      "csis200e",
+      "csis300e1",
+      "csis300e2",
     ], 
     Other: [
       // Math
@@ -158,6 +161,9 @@ export const REQUIREMENTS: Record<ProgramKey, Record<Category, string[]>> = {
       "csis450",
       "csis470",
       "csis475",
+      "csis200e",
+      "csis300e1",
+      "csis300e2",
     ], 
     Other: [
       // Math
